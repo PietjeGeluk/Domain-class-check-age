@@ -1,0 +1,15 @@
+public class Domain
+    {
+        public string AgeCheck(int ageInvoer)
+        {
+            if (ageInvoer > 10)
+            {
+                return "Oud genoeg";
+            }
+            else
+            {
+                return "Niet oud genoeg";
+            }
+
+        }
+    }
